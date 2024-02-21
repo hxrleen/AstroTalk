@@ -1,48 +1,45 @@
+# Astrotalk
+
+Astrotalk is a PHP and CodeIgniter-based project that serves as the foundation for an astrology application. This repository houses the source code and related files for the development of the Astrotalk astrology app. The project is designed to provide users with a comprehensive platform to explore and engage with astrology-related content and features.
+
+## Key Features
+
+- **CodeIgniter Framework:**
+  - Ensures a robust and scalable architecture for the astrology application.
+
+- **PHP Backend:**
+  - Utilizes PHP as a server-side scripting language to handle various functionalities and interactions within the app.
+
+- **Astrology Features:**
+  - Delivers a wide range of astrology-related features, including horoscope generation, compatibility analysis, personalized predictions, and more.
+
+- **User Authentication:**
+  - Includes modules for user authentication, ensuring secure access to personalized astrological data and features.
+
+- **Responsive Design:**
+  - Incorporates responsive design principles, making the astrology app accessible across different devices and screen sizes.
+
+- **Database Integration:**
+  - Utilizes a database (e.g., MySQL) to store user data, horoscope information, and other relevant content for efficient data management.
+
+- **API Integration (if applicable):**
+  - Depending on the project's requirements, may include integrations with third-party astrology APIs for additional data and insights.
+
+- **Documentation:**
+  - Comprehensive documentation is provided to assist developers in understanding the codebase, setting up the environment, and integrating new features.
+
+- **Community Contribution Guidelines:**
+  - Encourages community contributions with guidelines for submitting bug reports, feature requests, and pull requests.
+
+- **License:**
+  - Open-source license, specifying the terms under which the code can be used, modified, and distributed.
+
 # CodeIgniter 4 Framework
 
 ## What is CodeIgniter?
 
 CodeIgniter is a PHP full-stack web framework that is light, fast, flexible, and secure. 
 More information can be found at the [official site](http://codeigniter.com).
-
-This repository holds the distributable version of the framework,
-including the user guide. It has been built from the 
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
-
-**This is pre-release code and should not be used in production sites.**
-
-More information about the plans for version 4 can be found in [the announcement](http://forum.codeigniter.com/thread-62615.html) on the forums.
-
-The user guide corresponding to this version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/). 
-
-
-## Important Change with index.php
-
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
-
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
-
-**Please** read the user guide for a better explanation of how CI4 works!
-The user guide updating and deployment is a bit awkward at the moment, but we are working on it!
-
-## Repository Management
-
-We use Github issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script. 
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Contributing
-
-We welcome contributions from the community.
-
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/contributing.md) section in the development repository.
 
 ## Server Requirements
 
@@ -57,3 +54,4 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - [mbstring](http://php.net/manual/en/mbstring.installation.php)
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
 - xml (enabled by default - don't turn it off)
+
